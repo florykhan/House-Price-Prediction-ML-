@@ -27,7 +27,7 @@ house-price-ml-v1-baseline-linear/
 │ ├── 01_exploration.ipynb # Exploratory Data Analysis (EDA)
 │ └── 02_training.ipynb # Model training & evaluation
 │
-├── src/ # (optional) reusable helper code
+├── src/ # Reusable helper code (empty for this version)
 │
 ├── .gitignore
 ├── requirements.txt
@@ -38,7 +38,7 @@ house-price-ml-v1-baseline-linear/
 
 ## 📊 Dataset
 
-- **Source:** California Housing dataset (available via `sklearn.datasets.fetch_california_housing` or Kaggle)
+- **Source:** California Housing dataset (available via `sklearn.datasets.fetch_california_housing` or [Kaggle](https://www.kaggle.com/datasets/camnugent/california-housing-prices))
 - **Size:** ~20,000 samples, 8 numerical + 1 categorical feature  
 - **Target:** `median_house_value`
 
@@ -71,12 +71,12 @@ Key insight: **`median_income`** shows the strongest positive correlation with h
 ["median_income", "housing_median_age", "latitude", "longitude", "ocean_proximity"]
 
 - Preprocessed data using:
-- `ColumnTransformer` for handling numeric & categorical columns
-- `OneHotEncoder` for `ocean_proximity`
+  - `ColumnTransformer` for handling numeric & categorical columns
+  - `OneHotEncoder` for `ocean_proximity`
 - Trained a **Linear Regression** model using the **Normal Equation**
 - Evaluated on test set using:
-- **RMSE** (Root Mean Squared Error)
-- **R² Score**
+  - **RMSE** (Root Mean Squared Error)
+  - **R² Score**
 
 ---
 
@@ -84,8 +84,8 @@ Key insight: **`median_income`** shows the strongest positive correlation with h
 
 | Metric | Value |
 |---------|--------|
-| **RMSE** | ≈ \$72,000 |
-| **R²** | ≈ 0.60 |
+| **RMSE** | ≈ \$73,000 |
+| **R²** | ≈ 0.6 |
 
 ### Interpretation
 - The model explains ~60 % of variance in housing prices.
@@ -107,7 +107,7 @@ Key insight: **`median_income`** shows the strongest positive correlation with h
 ## 🚀 Next Steps — Version 2
 
 Future development will continue in  
-[`house-price-ml-v2-feature-engineering`](https://github.com/<your-github-username>/house-price-ml-v2-feature-engineering)
+[`house-price-ml-v2-feature-engineering`](https://github.com/florykhan/house-price-ml-v2-feature-engineering)
 
 Planned enhancements:
 - Implement **Gradient Descent** for Linear Regression (custom training loop)  
@@ -124,8 +124,8 @@ Planned enhancements:
 
 - **Language:** Python 3.11  
 - **Core Libraries:**  
-- `pandas`, `numpy`, `matplotlib`  
-- `scikit-learn`  
+  - `pandas`, `numpy`, `matplotlib`  
+  - `scikit-learn`  
 - **Environment:** Jupyter Notebook / VS Code  
 - **Version Control:** Git + GitHub (SSH configured)
 
@@ -139,4 +139,4 @@ MIT License — feel free to use and modify with attribution.
 ## 👤 Author
 **Ilian Khankhalaev**  
 _BSc Computing Science, Simon Fraser University_  
-📍 Vancouver, BC  |  [florykhan@gmail.com]  |  [GitHub](https://github.com/florykhan)  |  [LinkedIn](https://www.linkedin.com/in/ilian-khankhalaev/)
+📍 Vancouver, BC  |  `florykhan@gmail.com`  |  [GitHub](https://github.com/florykhan)  |  [LinkedIn](https://www.linkedin.com/in/ilian-khankhalaev/)
