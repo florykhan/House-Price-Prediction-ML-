@@ -38,7 +38,7 @@ house-price-ml-v1-baseline-linear/
 
 ## 📊 Dataset
 
-- **Source:** California Housing dataset (available via `sklearn.datasets.fetch_california_housing` or [Kaggle](https://www.kaggle.com/datasets/camnugent/california-housing-prices))
+- **Source:** California Housing dataset (available via `sklearn.datasets.fetch_california_housing` or [`Kaggle`](https://www.kaggle.com/datasets/camnugent/california-housing-prices))
 - **Size:** ~20,000 samples, 8 numerical + 1 categorical feature  
 - **Target:** `median_house_value`
 
@@ -139,4 +139,4 @@ MIT License — feel free to use and modify with attribution.
 ## 👤 Author
 **Ilian Khankhalaev**  
 _BSc Computing Science, Simon Fraser University_  
-📍 Vancouver, BC  |  `florykhan@gmail.com`  |  [GitHub](https://github.com/florykhan)  |  [LinkedIn](https://www.linkedin.com/in/ilian-khankhalaev/)
+📍 Vancouver, BC  |  [`florykhan@gmail.com`]  |  [`GitHub`](https://github.com/florykhan)  |  [`LinkedIn`](https://www.linkedin.com/in/ilian-khankhalaev/)
