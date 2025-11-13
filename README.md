@@ -86,14 +86,25 @@ Key insight: **`median_income`** shows the strongest positive correlation with h
 
 ## 📈 Results
 
+<table>
+<tr>
+<td>
+  
 | Metric | Value |
 |---------|--------|
 | **RMSE** | ≈ \$73,000 |
 | **R²** | ≈ 0.6 |
 
+</td>
+<td style="vertical-align: top; padding-left: 25px;">
+  
 ### Interpretation
 - The model explains ~60 % of variance in housing prices.
 - Captures strong linear trends (e.g., income vs. price) but misses nonlinear and interaction effects.
+  
+</td>
+</tr>
+</table>
 
 ---
 
