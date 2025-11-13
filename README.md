@@ -17,7 +17,7 @@ This version uses the **Normal Equation** (closed-form solution) for Linear Regr
 ---
 
 ## 🧱 Repository Structure
-
+```
 house-price-ml-v1-baseline-linear/
 │
 ├── data/ # Dataset directory (kept empty intentionally for privacy / size)
@@ -32,7 +32,7 @@ house-price-ml-v1-baseline-linear/
 ├── .gitignore
 ├── requirements.txt
 └── README.md
-
+```
 > 🗒️ **Note:**  
 > The `data/` and `src/` folders are intentionally left empty in this version.  
 > - `data/` — add your own copy of `housing.csv` if running locally.  
@@ -46,6 +46,7 @@ house-price-ml-v1-baseline-linear/
 - **Size:** ~20,000 samples, 8 numerical + 1 categorical feature  
 - **Target:** `median_house_value`
 
+<p align="center">
 | Feature | Description |
 |----------|--------------|
 | `longitude`, `latitude` | geographic coordinates |
@@ -55,7 +56,8 @@ house-price-ml-v1-baseline-linear/
 | `median_income` | median income (in tens of thousands of USD) |
 | `ocean_proximity` | categorical location label |
 | `median_house_value` | target (house price, in USD) |
-
+</p>
+  
 ---
 
 ## 🧭 Workflow Summary
@@ -121,8 +123,8 @@ cd house-price-ml-v1-baseline-linear
 ### 2️⃣ Create and activate a virtual environment
 ```bash
 python3 -m venv venv
-source venv/bin/activate      # (on macOS/Linux)
-venv\Scripts\activate         # (on Windows)
+source venv/bin/activate   # (on macOS/Linux)
+venv\Scripts\activate      # (on Windows)
 ```
 
 ### 3️⃣ Install dependencies
@@ -150,8 +152,7 @@ Then run:
 
 ## 🚀 Next Steps — Version 2
 
-Future development will continue in  
-[`house-price-ml-v2-feature-engineering`](https://github.com/florykhan/house-price-ml-v2-feature-engineering)
+Future development will continue in [`house-price-ml-v2-feature-engineering`](https://github.com/florykhan/house-price-ml-v2-feature-engineering)
 
 Planned enhancements:
 - Implement **Gradient Descent** for Linear Regression (custom training loop)  
@@ -183,4 +184,4 @@ MIT License — feel free to use and modify with attribution.
 ## 👤 Author
 **Ilian Khankhalaev**  
 _BSc Computing Science, Simon Fraser University_  
-📍 Vancouver, BC  |  [📧florykhan@gmail.com](mailto:florykhan@gmail.com)  |  [💼GitHub](https://github.com/florykhan)  |  [🔗LinkedIn](https://www.linkedin.com/in/ilian-khankhalaev/)
+📍 Vancouver, BC  |  [florykhan@gmail.com](mailto:florykhan@gmail.com)  |  [GitHub](https://github.com/florykhan)  |  [LinkedIn](https://www.linkedin.com/in/ilian-khankhalaev/)
